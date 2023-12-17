@@ -14,6 +14,11 @@ public class DecoratedElement<T> {
 	private boolean visited;
 	
 	//Constructor
+	/**
+	 * Creacion de una nueva instancia de DecoratedElement.
+	 * 
+	 * @param element Elemento a ser contenido en este DecoratedElemet.
+	 */
 	public DecoratedElement(T element) {
 		this.element = element;
 		this.visited = false;
